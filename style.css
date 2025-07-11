@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  background: #f8f8f8;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+#light {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  background-color: #aaa;
+  border-radius: 20px;
+  transition: background-color 0.2s ease;
+}
+
+#light.yellow {
+  background-color: yellow;
+  box-shadow: 0 0 30px 10px yellow;
+}
+#light.green {
+  background-color: green;
+  box-shadow: 0 0 30px 10px green;
+}
+#light.blue {
+  background-color: blue;
+  box-shadow: 0 0 30px 10px blue;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  white-space: pre-line;
+}
+
+#start-container {
+  margin-bottom: 30px;
+}
